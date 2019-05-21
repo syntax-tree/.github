@@ -7,6 +7,10 @@ about: Suggest an idea for this project
 Thank you for suggesting an idea to make this project better!
 
 Please fill in as much of the template below as you’re able.
+
+P.S. have you seen our support and contributing docs?
+https://github.com/syntax-tree/.github/blob/master/support.md
+https://github.com/syntax-tree/.github/blob/master/contributing.md
 -->
 
 ### Subject of the feature
