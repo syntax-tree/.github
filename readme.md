@@ -25,6 +25,8 @@ Take a look at [`support.md`][support] to find out how to help us help you.
 We’re excited that you’re interested in contributing!
 Take a moment to read [`contributing.md`][contribute].
 
+Ideas for new utilities and tools can be posted in [syntax-tree/ideas][ideas].
+
 ## Code of Conduct
 
 This project has a [Code of Conduct][coc].
@@ -51,6 +53,8 @@ Other projects may be licensed differently.
 [support]: support.md
 
 [awesome]: https://github.com/syntax-tree/awesome-syntax-tree
+
+[ideas]: https://github.com/syntax-tree/ideas
 
 [pr]: .github/pull-request-template.md
 
