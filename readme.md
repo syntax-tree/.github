@@ -10,6 +10,11 @@ and [issue templates][issue].
 **unist** (**syntax-tree**) is a [unified collective][unified] project.
 Read how it’s governed in [unifiedjs/governance][governance].
 
+## Awesome syntax-tree
+
+For a curated list of awesome syntax-tree, unist, hast, mdast, and nlcst
+resources, see [awesome syntax-tree][awesome].
+
 ## Code of Conduct
 
 This project has a [Code of Conduct][coc].
@@ -44,6 +49,8 @@ Other projects may be licensed differently.
 [contribute]: contributing.md
 
 [support]: support.md
+
+[awesome]: https://github.com/syntax-tree/awesome-syntax-tree
 
 [pr]: .github/pull-request-template.md
 
