@@ -1,9 +1,9 @@
 # `.github`
 
 Community health files for **unist** (**syntax-tree**).
-This repo hosts the [Code of Conduct][coc], a guide on how to
-[contribute][], how to get [support][], a [pull request template][pr],
-and [issue templates][issue].
+This repo hosts the [Code of Conduct][coc], a guide on how to get [support][],
+how to [contribute][], a [pull request template][pr], and [issue
+templates][issue].
 
 ## unified
 
@@ -15,21 +15,21 @@ Read how it’s governed in [unifiedjs/governance][governance].
 For a curated list of awesome syntax-tree, unist, hast, mdast, and nlcst
 resources, see [awesome syntax-tree][awesome].
 
-## Code of Conduct
+## Support
 
-This project has a [Code of Conduct][coc].
-By interacting with this repository, organisation, or community you agree to
-abide by its terms.
+We’re glad you’re using these projects and we’d love to help.
+Take a look at [`support.md`][support] to find out how to help us help you.
 
 ## Contributing
 
 We’re excited that you’re interested in contributing!
 Take a moment to read [`contributing.md`][contribute].
 
-## Support
+## Code of Conduct
 
-We’re glad you’re using these projects and we’d love to help.
-Take a look at [`support.md`][support] to find out how to help us help you.
+This project has a [Code of Conduct][coc].
+By interacting with this repository, organisation, or community you agree to
+abide by its terms.
 
 ## License
 
