@@ -8,7 +8,7 @@ templates][issue].
 ## unified
 
 **unist** (**syntax-tree**) is a [unified collective][unified] project.
-Read how it’s governed in [unifiedjs/governance][governance].
+Read how it’s governed in [`unifiedjs/collective`][collective].
 
 ## Awesome syntax-tree
 
@@ -62,4 +62,4 @@ Other projects may be licensed differently.
 
 [unified]: https://github.com/unifiedjs
 
-[governance]: https://github.com/unifiedjs/governance
+[collective]: https://github.com/unifiedjs/collective

@@ -64,4 +64,4 @@ with or unaddressed by this policy.
 
 [syntax-tree]: https://github.com/syntax-tree
 
-[core]: https://github.com/unifiedjs/governance#core-team
+[core]: https://github.com/unifiedjs/collective#core-team
