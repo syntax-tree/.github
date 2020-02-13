@@ -12,7 +12,7 @@ Read how it’s governed in [`unifiedjs/collective`][collective].
 
 ## Awesome syntax-tree
 
-For a curated list of awesome syntax-tree, unist, hast, mdast, and nlcst
+For a curated list of awesome syntax-tree, unist, hast, xast, mdast, and nlcst
 resources, see [awesome syntax-tree][awesome].
 
 ## Support
