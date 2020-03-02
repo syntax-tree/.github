@@ -23,7 +23,13 @@
   "remarkConfig": {
     "plugins": [
       "frontmatter",
-      "preset-wooorm"
+      "preset-wooorm",
+      [
+        "toc",
+        {
+          "heading": "contents"
+        }
+      ]
     ]
   }
 }
