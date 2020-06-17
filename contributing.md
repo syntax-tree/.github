@@ -120,7 +120,7 @@ This document has the following license:
 
 [author]: http://wooorm.com
 
-[coc]: https://github.com/syntax-tree/.github/blob/master/code-of-conduct.md
+[coc]: https://github.com/syntax-tree/.github/blob/main/code-of-conduct.md
 
 [mdast]: https://github.com/syntax-tree/mdast
 
