@@ -27,7 +27,7 @@ Take a moment to read [`contributing.md`][contribute].
 
 Ideas for new utilities and tools can be posted in [`syntax-tree/ideas`][ideas].
 
-## Code of Conduct
+## Code of conduct
 
 This project has a [code of conduct][coc].
 By interacting with this repository, organization, or community you agree to
