@@ -1,41 +1,63 @@
 ---
 name: 🐛 Bug report
-about: Create a report to help us improve
-labels: 🔍 status/open, 🐛 type/bug
+about: Describe a problem
 ---
 
 <!--
-Ouch, sorry you ran into a bug.  Thank for taking the time to report it!
+  Bug: please check the needed checkboxes ([ ] -> [x]) and fill out the TODOs.
+  Leave the comments as they are: they won’t show on GitHub.
 
-Please fill in as much of the template below as you’re able.
-
-P.S. have you seen our support and contributing docs?
-https://github.com/syntax-tree/.github/blob/main/support.md
-https://github.com/syntax-tree/.github/blob/main/contributing.md
+  Some general tips:
+  - Is this really a problem?
+  - Is this a problem here?
+  - Can this be solved in a different way?
 -->
 
-### Subject of the issue
+### Initial checklist
 
-Describe your issue here.
+*   [ ] I read the support docs <!-- https://github.com/syntax-tree/.github/blob/main/support.md -->
+*   [ ] I read the contributing guide <!-- https://github.com/syntax-tree/.github/blob/main/contributing.md -->
+*   [ ] I agree to follow the code of conduct <!-- https://github.com/syntax-tree/.github/blob/main/code-of-conduct.md -->
+*   [ ] I searched issues and couldn’t find anything (or linked relevant results below) <!-- https://github.com/search?q=user%3Asyntax-tree&type=Issues -->
 
-This is *not* a place to ask questions.  For that, go to [Discussions](https://github.com/syntax-tree/unist/discussions)
+<!--
+  Please test using the latest version of the relevant packages to make sure
+  your issue has not already been fixed. Also make sure you’re on recent versions
+  of Node and npm.
+-->
 
-### Your environment
-
-*   **OS**: <!-- Name and version of operating system -->
-*   **Packages**: <!-- Names and version of required packages -->
-*   **Env**: <!-- Version of node, npm, yarn, or names and versions of browser -->
+Affected packages and versions: TODO
 
 ### Steps to reproduce
 
-Tell us how to reproduce this issue.  Please provide a working and simplified example.
+<!--
+  How did this happen?
+  Please provide a minimal, reproducible example:
+  https://stackoverflow.com/help/minimal-reproducible-example
+  Issues without reproduction steps or code examples may be immediately closed
+  as not actionable.
 
-🎉 BONUS POINTS for creating a [minimal reproduction](https://stackoverflow.com/help/mcve) and uploading it to GitHub.  This will get you the fastest support.  🎉
+  Here are some starters on codesandbox:
+  - remark only (for markdown to markdown): https://codesandbox.io/s/remark-debug-ikwvx
+  - remark and rehype (for markdown to html): https://codesandbox.io/s/remark-rehype-debug-4cz8v
+  - react-markdown: https://codesandbox.io/s/react-markdown-debug-9n4eg
+
+  Either link to runnable code (not your whole repo) or post the code inline.
+-->
+
+1.  TODO
+2.  TODO
+
+Link to code example: TODO
 
 ### Expected behavior
 
-What should happen?
+<!--What should happen?-->
+
+TODO
 
 ### Actual behavior
 
-What happens instead?
+<!--What happens instead?-->
+
+TODO
