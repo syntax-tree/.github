@@ -4,7 +4,7 @@ about: Describe a problem
 ---
 
 <!--
-  Bug: please check the needed checkboxes ([ ] -> [x]) and fill out the TODOs.
+  Please check the needed checkboxes ([ ] -> [x]) and fill out the TODOs.
   Leave the comments as they are: they won’t show on GitHub.
 
   Some general tips:
@@ -61,3 +61,5 @@ TODO
 <!--What happens instead?-->
 
 TODO
+
+<!--do not edit: bug-->

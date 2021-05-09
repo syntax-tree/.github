@@ -4,7 +4,7 @@ about: Suggest an idea
 ---
 
 <!--
-  Feat: please check the needed checkboxes ([ ] -> [x]) and fill out the TODOs.
+  Please check the needed checkboxes ([ ] -> [x]) and fill out the TODOs.
   Leave the comments as they are: they won’t show on GitHub.
 -->
 
@@ -44,3 +44,5 @@ TODO
 <!-- What are the alternative solutions? Can this be solved in a different way? -->
 
 TODO
+
+<!--do not edit: feat-->
