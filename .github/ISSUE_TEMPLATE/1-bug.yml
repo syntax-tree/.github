@@ -25,22 +25,22 @@ body:
         - label: I searched [issues](https://github.com/search?q=user%3Asyntax-tree&type=Issues) and couldn’t find anything (or linked relevant results below)
           required: true
 
-    - type: dropdown
-      id: javascript-runtime
-      attributes:
-        label: Runtime
-        description: What JavaScript runtime are you using to build or run the code?
-        options:
-          - Node v12
-          - Node v14
-          - Node v16
-          - Deno v1
-          - Electron v13
-          - Electron v12
-          - Electron v11
-          - Other (please specify in *steps to reproduce*)
-      validations:
-        required: true
+  - type: dropdown
+    id: javascript-runtime
+    attributes:
+      label: Runtime
+      description: What JavaScript runtime are you using to build or run the code?
+      options:
+        - Node v12
+        - Node v14
+        - Node v16
+        - Deno v1
+        - Electron v13
+        - Electron v12
+        - Electron v11
+        - Other (please specify in *steps to reproduce*)
+    validations:
+      required: true
 
   - type: dropdown
     id: package-manager
