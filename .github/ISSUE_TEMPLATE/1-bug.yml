@@ -11,63 +11,66 @@ body:
         - Is this a problem here?
         - Can this be solved in a different way?
 
-        Relevant links:
-
-        [Support Docs](https://github.com/syntax-tree/.github/blob/main/support.md)
-        [Contributing Guide](https://github.com/syntax-tree/.github/blob/main/contributing.md)
-        [Code of Conduct](https://github.com/syntax-tree/.github/blob/main/code-of-conduct.md)
-        [Starter query for searching existing issues](https://github.com/search?q=user%3Asyntax-tree&type=Issues)
-
   - type: checkboxes
     id: initial-checklist
     attributes:
       label: Initial checklist
       options:
-        - label: I read the support docs
+        - label: I read the [support docs](https://github.com/syntax-tree/.github/blob/main/support.md)
           required: true
-        - label: I read the contributing guide
+        - label: I read the [contributing guide](https://github.com/syntax-tree/.github/blob/main/contributing.md)
           required: true
-        - label: I agree to follow the code of conduct
+        - label: I agree to follow the [code of conduct](https://github.com/syntax-tree/.github/blob/main/code-of-conduct.md)
           required: true
-        - label: I searched issues and couldn’t find anything (or linked relevant results below)
+        - label: I searched [issues](https://github.com/search?q=user%3Asyntax-tree&type=Issues) and couldn’t find anything (or linked relevant results below)
           required: true
+
+    - type: dropdown
+      id: node-version
+      attributes:
+        label: Node Version
+        description: What version of `node` are you running?
+        options:
+          - v12
+          - v14
+          - v16
+          - other
+      validations:
+        required: true
+  - type: dropdown
+    id: package-manager
+    attributes:
+      label: Package Manager
+      description: What package manager are you using?
+      options:
+        - npm v6
+        - npm v7
+        - yarn v1
+        - yarn v2
+        - pnpm
+        - other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: operating-system
+    attributes:
+      label: What operating system are you using?
+      options:
+        - Windows
+        - Linux
+        - macOS
+        - other
+    validations:
+      required: true
 
   - type: input
     id: affected-versions
     attributes:
       label: Affected packages and versions
-      description: Please test using the latest version of the relevant packages to make sure your issue has not already been fixed. Also make sure you’re on recent versions of Node and npm.
+      description: Please test using the latest version of the relevant packages to make sure your issue has not already been fixed.
     validations:
       required: true
-
-  - type: textarea
-    id: steps-to-reproduce
-    attributes:
-      label: Steps to reproduce
-      description: |
-        How did this happen?
-        Please provide a minimal, reproducible example:
-        https://stackoverflow.com/help/minimal-reproducible-example
-        Issues without reproduction steps or code examples may be immediately closed
-        as not actionable.
-      value: |
-        1.
-        2.
-        3.
-        ...
-    validations:
-      required: true
-
-  - type: input
-    id: sandbox
-    attributes:
-      label: Sandboxed Example
-      description: |
-        - remark only (for markdown to markdown): https://codesandbox.io/s/remark-debug-ikwvx
-        - remark and rehype (for markdown to html): https://codesandbox.io/s/remark-rehype-debug-4cz8v
-        - react-markdown: https://codesandbox.io/s/react-markdown-debug-9n4eg
-    validations:
-      required: false
 
   - type: textarea
     id: expected-behavior
@@ -84,3 +87,31 @@ body:
       description: What happens instead?
     validations:
       required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description: |
+        How did this happen? Please provide a [minimal, reproducible example](https://stackoverflow.com/help/minimal-reproducible-example).
+        Issues without reproduction steps or code examples may be immediately closed as not actionable.
+      placeholder: |
+        1.
+        2.
+        3.
+        ...
+    validations:
+      required: true
+
+  - type: input
+    id: runnable-example
+    attributes:
+      label: Link to runnable example (optional)
+      description: |
+        Link to repository or sandbox with runnable example of the issue.
+        Some starters for creating a sandbox are provided below: 
+        - remark only (for markdown to markdown): https://codesandbox.io/s/remark-debug-ikwvx
+        - remark and rehype (for markdown to html): https://codesandbox.io/s/remark-rehype-debug-4cz8v
+        - react-markdown: https://codesandbox.io/s/react-markdown-debug-9n4eg
+    validations:
+      required: false
