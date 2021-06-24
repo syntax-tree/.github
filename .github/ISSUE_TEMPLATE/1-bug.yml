@@ -88,7 +88,7 @@ body:
         - Docusaurus
         - Snowpack
         - Vite
-        - None
+        - Not applicable
         - Other (please specify in *steps to reproduce*)
     validations:
       required: true
