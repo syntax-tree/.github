@@ -34,9 +34,10 @@ body:
           - v12
           - v14
           - v16
-          - other
+          - other (please specific in steps to reproduce)
       validations:
         required: true
+
   - type: dropdown
     id: package-manager
     attributes:
@@ -48,7 +49,7 @@ body:
         - yarn v1
         - yarn v2
         - pnpm
-        - other
+        - other (please specific in steps to reproduce)
     validations:
       required: true
 
@@ -60,7 +61,24 @@ body:
         - Windows
         - Linux
         - macOS
-        - other
+        - other (please specific in steps to reproduce)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: build-tools
+    attributes:
+      label: Build and bundle tools
+      description: What, if any, tools are used to build or bundle the project?
+      options:
+        - None
+        - Webpack
+        - Rollup
+        - Parcel
+        - Create React App
+        - Snowpack
+        - Vite
+        - other (please specific in steps to reproduce)
     validations:
       required: true
 
