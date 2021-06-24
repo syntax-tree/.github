@@ -13,7 +13,7 @@ body:
   - type: checkboxes
     id: initial-checklist
     attributes:
-      label: Initial checklist <!-- test! -->
+      label: Initial checklist
       options:
         - label: I read the [support docs](https://github.com/syntax-tree/.github/blob/main/support.md)
           required: true
