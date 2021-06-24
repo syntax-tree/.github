@@ -79,7 +79,7 @@ body:
       label: Runtime
       description: |
         What JavaScript runtime are you using to build or run the code?
-        **Note**: for ECMASCript modules (ESM) in Node, at minimum Node.js 12.20, 14.14, or 16.0 or newer is required.
+        **Note**: for ECMASCript modules (ESM) in Node, at minimum Node.js 12.20, 14.14, or 16.0 is required.
       multiple: true
       options:
         - Node v16
