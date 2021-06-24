@@ -82,12 +82,14 @@ body:
     id: javascript-runtime
     attributes:
       label: Runtime
-      description: What JavaScript runtime are you using to build or run the code?
+      description: |
+        What JavaScript runtime are you using to build or run the code?
+        Note: for EcmaScript Module (ESM) support Node 12 or newer is required.
       multiple: true
       options:
-        - Node v12
-        - Node v14
         - Node v16
+        - Node v14
+        - Node v12
         - Deno v1
         - Electron v13
         - Electron v12
