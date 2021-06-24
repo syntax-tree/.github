@@ -30,6 +30,7 @@ body:
     attributes:
       label: Runtime
       description: What JavaScript runtime are you using to build or run the code?
+      multiple: true
       options:
         - Node v12
         - Node v14
@@ -38,9 +39,9 @@ body:
         - Electron v13
         - Electron v12
         - Electron v11
-        - Other (please specify in *steps to reproduce*)
+        - Other (please specify in steps to reproduce)
     validations:
-      required: true
+      required: false
 
   - type: dropdown
     id: package-manager
@@ -54,9 +55,9 @@ body:
         - yarn v1
         - yarn v2
         - pnpm
-        - Other (please specify in *steps to reproduce*)
+        - Other (please specify in steps to reproduce)
     validations:
-      required: true
+      required: false
 
   - type: dropdown
     id: operating-system
@@ -67,9 +68,9 @@ body:
         - Windows
         - Linux
         - macOS
-        - Other (please specify in *steps to reproduce*)
+        - Other (please specify in steps to reproduce)
     validations:
-      required: true
+      required: false
 
   - type: dropdown
     id: build-tools
@@ -88,10 +89,9 @@ body:
         - Docusaurus
         - Snowpack
         - Vite
-        - Not applicable
-        - Other (please specify in *steps to reproduce*)
+        - Other (please specify in steps to reproduce)
     validations:
-      required: true
+      required: false
 
   - type: input
     id: affected-versions
@@ -117,6 +117,19 @@ body:
     validations:
       required: true
 
+  - type: input
+    id: runnable-example
+    attributes:
+      label: Link to runnable example (optional)
+      description: |
+        Link to repository or sandbox with runnable example of the issue.
+        Some starters for creating a sandbox are provided below: 
+        - remark only (for markdown to markdown): https://codesandbox.io/s/remark-debug-ikwvx
+        - remark and rehype (for markdown to html): https://codesandbox.io/s/remark-rehype-debug-4cz8v
+        - react-markdown: https://codesandbox.io/s/react-markdown-debug-9n4eg
+    validations:
+      required: false
+
   - type: textarea
     id: steps-to-reproduce
     attributes:
@@ -132,16 +145,3 @@ body:
         ...
     validations:
       required: true
-
-  - type: input
-    id: runnable-example
-    attributes:
-      label: Link to runnable example (optional)
-      description: |
-        Link to repository or sandbox with runnable example of the issue.
-        Some starters for creating a sandbox are provided below: 
-        - remark only (for markdown to markdown): https://codesandbox.io/s/remark-debug-ikwvx
-        - remark and rehype (for markdown to html): https://codesandbox.io/s/remark-rehype-debug-4cz8v
-        - react-markdown: https://codesandbox.io/s/react-markdown-debug-9n4eg
-    validations:
-      required: false
