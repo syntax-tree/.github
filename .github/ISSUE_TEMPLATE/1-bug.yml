@@ -53,9 +53,7 @@ body:
     id: steps-to-reproduce
     attributes:
       label: Steps to reproduce
-      description: |
-        How did this happen? Please provide a [minimal, reproducible example](https://stackoverflow.com/help/minimal-reproducible-example).
-        Issues without reproduction steps or code examples may be immediately closed as not actionable.
+      description: How did this happen? Please provide a [minimal, reproducible example](https://stackoverflow.com/help/minimal-reproducible-example).
     validations:
       required: true
 
