@@ -10,6 +10,20 @@ body:
         - Is this really a problem?
         - Is this a problem here?
 
+  - type: checkboxes
+    id: initial-checklist
+    attributes:
+      label: Initial checklist <!-- test! -->
+      options:
+        - label: I read the [support docs](https://github.com/syntax-tree/.github/blob/main/support.md)
+          required: true
+        - label: I read the [contributing guide](https://github.com/syntax-tree/.github/blob/main/contributing.md)
+          required: true
+        - label: I agree to follow the [code of conduct](https://github.com/syntax-tree/.github/blob/main/code-of-conduct.md)
+          required: true
+        - label: I searched [issues](https://github.com/search?q=user%3Asyntax-tree&type=Issues) and couldn’t find anything (or linked relevant results below)
+          required: true
+
   - type: textarea
     id: problem
     attributes:
