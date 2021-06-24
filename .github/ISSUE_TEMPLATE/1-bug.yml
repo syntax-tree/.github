@@ -26,14 +26,18 @@ body:
           required: true
 
     - type: dropdown
-      id: node-version
+      id: javascript-runtime
       attributes:
-        label: Node version
-        description: What version of Node are you running (use `node --version` to find out)?
+        label: Runtime
+        description: What JavaScript runtime are you using to build or run the code?
         options:
-          - v12
-          - v14
-          - v16
+          - Node v12
+          - Node v14
+          - Node v16
+          - Deno v1
+          - Electron v13
+          - Electron v12
+          - Electron v11
           - Other (please specify in *steps to reproduce*)
       validations:
         required: true
@@ -43,6 +47,7 @@ body:
     attributes:
       label: Package Manager
       description: What package manager are you using?
+      multiple: true
       options:
         - npm v6
         - npm v7
@@ -57,6 +62,7 @@ body:
     id: operating-system
     attributes:
       label: What operating system are you using?
+      multiple: true
       options:
         - Windows
         - Linux
@@ -70,15 +76,19 @@ body:
     attributes:
       label: Build and bundle tools
       description: What, if any, tools are used to build or bundle the project?
+      multiple: true
       options:
-        - None
         - Webpack
         - Rollup
         - esbuild
         - Parcel
         - Create React App
+        - Gatsby
+        - Next.js
+        - Docusaurus
         - Snowpack
         - Vite
+        - None
         - Other (please specify in *steps to reproduce*)
     validations:
       required: true
