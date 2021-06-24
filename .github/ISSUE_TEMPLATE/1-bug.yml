@@ -36,13 +36,16 @@ body:
   - type: input
     id: runnable-example
     attributes:
-      label: Link to runnable example (optional)
+      label: Link to runnable example
       description: |
         Link to repository or sandbox with runnable example of the issue.
-        Some starters for creating a sandbox are provided below: 
-        - remark only (for markdown to markdown): https://codesandbox.io/s/remark-debug-ikwvx
-        - remark and rehype (for markdown to html): https://codesandbox.io/s/remark-rehype-debug-4cz8v
-        - react-markdown: https://codesandbox.io/s/react-markdown-debug-9n4eg
+
+        Some CodeSandbox starters:
+        - [remark only](https://codesandbox.io/s/remark-debug-ikwvx) (for markdown to markdown)
+        - [remark and rehype](https://codesandbox.io/s/remark-rehype-debug-4cz8v) (for markdown to html)
+        - [react-markdown](https://codesandbox.io/s/react-markdown-debug-9n4eg)
+
+        Alternatively, use the next section *Steps to reproduce*.
     validations:
       required: false
 
@@ -53,12 +56,6 @@ body:
       description: |
         How did this happen? Please provide a [minimal, reproducible example](https://stackoverflow.com/help/minimal-reproducible-example).
         Issues without reproduction steps or code examples may be immediately closed as not actionable.
-      placeholder: |
-        1.
-        2.
-        3.
-
-        ...
     validations:
       required: true
 
@@ -84,7 +81,7 @@ body:
       label: Runtime
       description: |
         What JavaScript runtime are you using to build or run the code?
-        Note: for EcmaScript Module (ESM) support Node 12 or newer is required.
+        **Note**: for ECMASCript modules (ESM) in Node, at minimum Node.js 12.20, 14.14, or 16.0 or newer is required.
       multiple: true
       options:
         - Node v16
@@ -101,7 +98,7 @@ body:
   - type: dropdown
     id: package-manager
     attributes:
-      label: Package Manager
+      label: Package manager
       description: What package manager are you using?
       multiple: true
       options:
@@ -117,7 +114,8 @@ body:
   - type: dropdown
     id: operating-system
     attributes:
-      label: What operating system are you using?
+      label: OS
+      description: What operating system are you using?
       multiple: true
       options:
         - Windows
