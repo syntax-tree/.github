@@ -9,7 +9,6 @@ body:
 
         - Is this really a problem?
         - Is this a problem here?
-        - Can this be solved in a different way?
 
   - type: textarea
     id: problem
