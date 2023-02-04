@@ -12,7 +12,7 @@
     "Titus Wormer <tituswormer@gmail.com> (wooorm.com)"
   ],
   "devDependencies": {
-    "remark-cli": "^10.0.0",
+    "remark-cli": "^11.0.0",
     "remark-frontmatter": "^4.0.0",
     "remark-preset-wooorm": "^9.0.0"
   },
@@ -22,14 +22,8 @@
   },
   "remarkConfig": {
     "plugins": [
-      "frontmatter",
-      "preset-wooorm",
-      [
-        "toc",
-        {
-          "heading": "contents"
-        }
-      ]
+      "remark-frontmatter",
+      "remark-preset-wooorm"
     ]
   }
 }
