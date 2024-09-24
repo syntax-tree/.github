@@ -6,27 +6,27 @@ These trees typically deal with content: markdown (**[mdast][]**), HTML
 (**[hast][]**), natural language (**[nlcst][]**), XML (**[xast][]**), but also
 JavaScript (**[esast][]**).
 
-*   to learn unist, see [its readme][unist]
-*   you can use syntax trees without having to deal with them, by using
-    **[unified][]** and its plugins
+* to learn unist, see [its readme][unist]
+* you can use syntax trees without having to deal with them, by using
+  **[unified][]** and its plugins
 
 #### unified
 
 **`syntax-tree`** is part of the unified collective, which brings together
 organisations that work with content as structured data.
 
-*   for more about us, see [`unifiedjs.com`][site]
-*   for how the collective is governed, see [`unifiedjs/collective`][collective]
-*   for updates, see [@unifiedjs][twitter] on Twitter
+* for more about us, see [`unifiedjs.com`][site]
+* for how the collective is governed, see [`unifiedjs/collective`][collective]
+* for updates, see [@unifiedjs][twitter] on Twitter
 
 #### Get involved
 
 > 👉 **Note**: By interacting with this organization or community you agree to
 > abide by our [code of conduct][coc].
 
-*   for questions, see [support][]
-*   to help, see [contribute][]
-*   to sponsor, see [OpenCollective][oc] or [GitHub sponsors][ghs]
+* for questions, see [support][]
+* to help, see [contribute][]
+* to sponsor, see [OpenCollective][oc] or [GitHub sponsors][ghs]
 
 [logo]: https://raw.githubusercontent.com/syntax-tree/unist/367da2e/logo.svg?sanitize=true
 
