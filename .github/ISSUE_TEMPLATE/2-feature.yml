@@ -3,8 +3,8 @@ body:
       value: |
         Some general tips:
 
-        * Is this really a problem?
-        * Is this a problem here?
+        * is this really a problem?
+        * is this a problem here?
     type: markdown
   - attributes:
       label: Initial checklist

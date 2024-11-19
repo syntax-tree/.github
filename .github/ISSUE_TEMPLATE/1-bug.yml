@@ -3,9 +3,9 @@ body:
       value: |
         Some general tips:
 
-        * Is this really a problem?
-        * Is this a problem here?
-        * Can this be solved in a different way?
+        * is this really a problem?
+        * is this a problem here?
+        * can this be solved in a different way?
     type: markdown
   - attributes:
       label: Initial checklist
@@ -32,7 +32,7 @@ body:
   - attributes:
       description: |
         Link to repository or sandbox with runnable example of the issue.
-        Alternatively, use the next section *Steps to reproduce*.
+        Alternatively use the next section *Steps to reproduce*.
       label: Link to runnable example
     id: runnable-example
     type: input
@@ -41,7 +41,7 @@ body:
   - attributes:
       description: |
         How did this happen?
-        Please provide a [minimal, reproducible example](https://stackoverflow.com/help/minimal-reproducible-example).
+        Please provide a [minimal and reproducible example](https://stackoverflow.com/help/minimal-reproducible-example).
       label: Steps to reproduce
     id: steps-to-reproduce
     type: textarea
@@ -64,7 +64,7 @@ body:
   - attributes:
       label: Affected runtime and version
       description: |
-        What runtime are you using (such as `node@18.2`, `deno@1.12.2`)?
+        What runtime are you using (such as `node@18.2` or `deno@1.12.2`)?
         Please test using the latest version.
     id: runtime
     type: input
@@ -90,7 +90,7 @@ body:
       required: false
   - attributes:
       description: |
-        What, if any, tools are used to build or bundle the project?
+        What tools are used to build or bundle the project?
         Please test using the latest version.
       label: Build and bundle tools
       multiple: true

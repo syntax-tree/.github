@@ -1,9 +1,11 @@
 # `.github`
 
 Community health files for **unist** (**syntax-tree**).
-This repo hosts the [code of conduct][coc], a guide on how to get [support][],
-how to [contribute][], a [pull request template][pr], and [issue
-templates][issue].
+This repo hosts the [code of conduct][coc],
+a guide on how to get [support][],
+how to [contribute][],
+a [pull request template][pr],
+and [issue templates][issue].
 
 ## unified
 
@@ -12,8 +14,13 @@ Read how it’s governed in [`unifiedjs/collective`][collective].
 
 ## Awesome syntax-tree
 
-For a curated list of awesome syntax-tree, unist, hast, xast, mdast, and nlcst
-resources, see [awesome syntax-tree][awesome].
+For a curated list of awesome syntax-tree,
+unist,
+hast,
+xast,
+mdast,
+and nlcst resources,
+see [awesome syntax-tree][awesome].
 
 ## Support
 
@@ -30,8 +37,9 @@ Ideas for new utilities and tools can be posted in [`syntax-tree/ideas`][ideas].
 ## Code of conduct
 
 This project has a [code of conduct][coc].
-By interacting with this repository, organization, or community you agree to
-abide by its terms.
+By interacting with this repository,
+organization,
+or community you agree to abide by its terms.
 
 ## License
 
@@ -39,8 +47,6 @@ This document has the following license:
 [CC-BY-4.0][license] © [Titus Wormer][author].
 
 Other projects may be licensed differently.
-
-<!-- Definitions -->
 
 [license]: https://creativecommons.org/licenses/by/4.0/
 

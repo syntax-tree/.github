@@ -1,9 +1,9 @@
 <!--
   Please check the needed checkboxes ([ ] -> [x]).
-  Leave the comments as they are, they won’t show on GitHub.
-  We are excited about pull requests, but please try to limit the scope,
-  provide a general description of the changes, and remember, it’s up to you to
-  convince us to land it.
+  Leave the comments as they are: they won’t show on GitHub.
+  We are excited about pull requests but please try to limit the scope,
+  provide a general description of the changes,
+  and remember it’s up to you to convince us to land it.
 -->
 
 ### Initial checklist
@@ -12,7 +12,7 @@
 * [ ] I read the contributing guide <!-- https://github.com/syntax-tree/.github/blob/main/contributing.md -->
 * [ ] I agree to follow the code of conduct <!-- https://github.com/syntax-tree/.github/blob/main/code-of-conduct.md -->
 * [ ] I searched issues and couldn’t find anything (or linked relevant results below) <!-- https://github.com/search?q=user%3Asyntax-tree&type=Issues -->
-* [ ] If applicable, I’ve added docs and tests
+* [ ] I’ve added docs and tests or that’s not applicable
 
 ### Description of changes
 

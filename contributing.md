@@ -1,8 +1,9 @@
 # Contributing
 
 > This project has a [code of conduct][coc].
-> By interacting with this repository, organization, or community you agree to
-> abide by its terms.
+> By interacting with this repository,
+> organization,
+> or community you agree to abide by its terms.
 
 Hi!
 👋
@@ -11,9 +12,10 @@ Take a moment to read the following guidelines.
 And thanks for contributing to **unist** (**syntax-tree**)!
 👏👌✨
 
-If you’re raising an issue, please understand that people involved with this
-project often do so for fun, next to their day job; you are not entitled to
-free customer service.
+If you’re raising an issue,
+please understand that people involved with this project often do so for fun,
+next to their day job;
+you are not entitled to free customer service.
 
 ## Contents
 
@@ -33,35 +35,45 @@ free customer service.
 ## Ecosystem
 
 The collective ([unified][]) consists of several organizations and separate
-projects: most of them are tiny, and many of them have a utility
-([`mdast-util-to-hast`][mdast-util-to-hast]), a plugin
-([`remark-rehype`][remark-rehype]), and relate to an ecosystem
-([`remark`][remark]) and a syntax tree ([mdast][]).
+projects: most of them are tiny,
+and many of them have a utility
+([`mdast-util-to-hast`][mdast-util-to-hast]),
+a plugin ([`remark-rehype`][remark-rehype]),
+and relate to an ecosystem ([`remark`][remark]) and a syntax tree ([mdast][]).
 Try and pick the right place to contribute to so we can help you faster.
 
 ## Contributions
 
-There’s several ways to contribute, not just by writing code.
+There’s several ways to contribute,
+not just by writing code.
 
 ### Financial support
 
 It’s possible to support us financially by becoming a backer or sponsor through
 [Open Collective][collective].
-With this support, we can pay for project leadership, finance non-coding work,
+With this support,
+we can pay for project leadership,
+finance non-coding work,
 or to do fun things for the community like getting stickers for contributors.
 You’ll be helping unified’s maintainers manage and improve existing projects,
-and additionally support our work to develop new and exciting projects, such
-as [micromark][].
+and additionally support our work to develop new and exciting projects,
+such as [micromark][].
 
 ### Improve documentation
 
 As a user of this project you’re perfect for helping us improve our docs.
-Typo corrections, error fixes, better explanations, new examples, etcetera.
+Typo corrections,
+error fixes,
+better explanations,
+new examples,
+etcetera.
 Anything!
 
 ### Improve issues
 
-Some issues lack information, aren’t reproducible, or are just incorrect.
+Some issues lack information,
+aren’t reproducible,
+or are just incorrect.
 Help make them easier to resolve.
 
 ### Give feedback on issues
@@ -81,27 +93,33 @@ See [`support.md`][support] on how to get help.
 
 ## Submitting an issue
 
-* The issue tracker is for issues.
+* the issue tracker is for issues.
   See [`support.md`][support] on how to get help.
-* Search the issue tracker (including closed issues) before opening a new
+* search the issue tracker (including closed issues) before opening a new
   issue
-* Ensure you’re using the latest version of projects
-* Use a clear and descriptive title
-* Include as much information as possible: steps to reproduce the issue,
-  error message, version, operating system, etcetera
-* The more time you put into an issue, the more we will
-* The best issue report is a [failing test][unit-test] proving it
+* ensure you’re using the latest version of projects
+* use a clear and descriptive title
+* include as much information as possible: steps to reproduce the issue,
+  error message,
+  version,
+  operating system,
+  etcetera
+* the more time you put into an issue,
+  the more we will
+* the best issue report is a [failing test][unit-test] proving it
 
 ## Submitting a pull request
 
-* Non-trivial changes are often best discussed in an issue first, to prevent
+* non-trivial changes are often best discussed in an issue first,
+  to prevent
   you from doing unnecessary work
-* For ambitious tasks, you should try to get your work in front of the
-  community for feedback as soon as possible
-* New features should be accompanied with tests and documentation
-* Don’t include unrelated changes
-* Lint and test before submitting code by running `$ npm test`
-* Write a convincing description of why we should land your pull request:
+* for ambitious tasks,
+  you should try to get your work in front of the community for feedback as
+  soon as possible
+* new features should be accompanied with tests and documentation
+* don’t include unrelated changes
+* lint and test before submitting code by running `$ npm test`
+* write a convincing description of why we should land your pull request:
   it’s your job to convince us
 
 ## Resources
@@ -115,8 +133,6 @@ See [`support.md`][support] on how to get help.
 
 This document has the following license:
 [CC-BY-4.0][license] © [Titus Wormer][author]
-
-<!-- Definitions -->
 
 [license]: https://creativecommons.org/licenses/by/4.0/
 
