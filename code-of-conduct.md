@@ -90,12 +90,22 @@ or acting as an appointed representative at an online or offline event.
 
 Instances of abusive,
 harassing,
-or otherwise unacceptable behavior may be reported to the community leaders
-responsible for enforcement at [INSERT CONTACT METHOD].
+or otherwise unacceptable behavior may be reported via the collective email
+address,
+`moderation@unifiedjs.com`,
+which will go to all moderators,
+or by contacting individual moderators via `richard@unifiedjs.com`,
+which will go only to Richard Littauer,
+or to `olivia@unifiedjs.com`,
+which will go only to Olivia Hugger.
 All complaints will be reviewed and investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the
 reporter of any incident.
+
+For more information on how to report violations and how the code of conduct is
+enforced,
+see our [moderation policy][unified-moderation-policy].
 
 ## Enforcement guidelines
 
@@ -180,3 +190,5 @@ Translations are available at
 [covenant-translations]: https://www.contributor-covenant.org/translations/
 
 [mozilla-coc]: https://github.com/mozilla/inclusion
+
+[unified-moderation-policy]: https://github.com/unifiedjs/collective/blob/main/moderation.md
