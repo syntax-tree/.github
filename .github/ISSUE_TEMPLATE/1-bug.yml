@@ -68,7 +68,7 @@ body:
       description: |
         What runtime are you using?
         Please test using latest versions.
-        Example: `node@23.2.0` or `deno@2.0.6`.
+        Example: `node@23.2.0` or `Chrome 131.0.6778.86`.
     id: runtime
     type: input
     validations:
