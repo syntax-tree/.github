@@ -15,7 +15,7 @@
 * [ ] I read the support docs <!-- https://github.com/syntax-tree/.github/blob/main/support.md -->
 * [ ] I read the contributing guide <!-- https://github.com/syntax-tree/.github/blob/main/contributing.md -->
 * [ ] I agree to follow the code of conduct <!-- https://github.com/syntax-tree/.github/blob/main/code-of-conduct.md -->
-* [ ] I searched issues and discussions and couldn’t find anything or linked relevant results below <!-- https://github.com/search?q=user%3Asyntax-tree&type=issues and https://github.com/search?q=user%3Asyntax-tree&type=discussions -->
+* [ ] I searched issues and discussions and couldn’t find anything or linked relevant results below <!-- https://github.com/search?q=user%3Asyntax-tree&type=issues and https://github.com/orgs/syntax-tree/discussions -->
 * [ ] I made sure the docs are up to date
 * [ ] I included tests (or that’s not needed)
 

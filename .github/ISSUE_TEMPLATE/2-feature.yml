@@ -15,7 +15,7 @@ body:
           required: true
         - label: I agree to follow the [code of conduct](https://github.com/syntax-tree/.github/blob/main/code-of-conduct.md)
           required: true
-        - label: I searched [issues](https://github.com/search?q=user%3Asyntax-tree&type=issues) and [discussions](https://github.com/search?q=user%3Asyntax-tree&type=discussions) and couldn’t find anything (or linked relevant results below)
+        - label: I searched [issues](https://github.com/search?q=user%3Asyntax-tree&type=issues) and [discussions](https://github.com/orgs/syntax-tree/discussions) and couldn’t find anything (or linked relevant results below)
           required: true
     id: initial-checklist
     type: checkboxes
