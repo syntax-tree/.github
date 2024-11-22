@@ -71,7 +71,6 @@ Each organization has a discussion forum:
   zoom out;
   explain the context of your question
 * anticipate a follow up question of “Why?” and answer it already
-* anticipate another follow up question of “Why?” and answer it already
 * learn about the [rubber duck debugging method][rubberduckdebugging],
   it really helps
 * avoid falling for the [XY problem][stackexchange-xy-problem]
