@@ -1,130 +1,106 @@
 # Support
 
-> This project has a [code of conduct][coc].
-> By interacting with this repository,
-> organization,
-> or community you agree to abide by its terms.
-
 Hi!
 👋
-We’re excited that you’re using **unist** (**syntax-tree**) and we’d love to
-help.
-To help us help you,
-please read through the following guidelines.
-
-Please understand that people involved with this project often do so for fun,
-next to their day job;
-you are not entitled to free customer service.
+Take a moment to read the following guidelines.
+Thanks for using our work!
 
 ## Contents
 
-* [Questions](#questions)
-  * [Asking quality questions](#asking-quality-questions)
+* [Expectations](#expectations)
 * [Contributions](#contributions)
+* [Where to ask questions](#where-to-ask-questions)
+* [How to ask questions](#how-to-ask-questions)
 * [License](#license)
 
-## Questions
+## Expectations
 
-Please chat and ask questions on [Discussions][chat]!
-Jump in there and lurk,
-talk to us,
-and help others.
+This community has a [code of conduct][file-code-of-conduct].
+You must follow it when interacting with the community.
 
-* **[unified](https://github.com/unifiedjs/unified/discussions)**
-  — topics relating to **[unified][]** in general
-* **[remark](https://github.com/remarkjs/remark/discussions)**
-  — topics relating to the [remark][] ecosystem,
-  markdown,
-  and **[mdast][]**
-* **[rehype](https://github.com/rehypejs/rehype/discussions)**
-  — topics relating to the **[rehype][]** ecosystem,
-  HTML,
-  and **[hast][]**
-* **[retext](https://github.com/retextjs/retext/discussions)**
-  — topics relating to the **[retext][]** ecosystem,
-  natural language,
-  and **[nlcst][]**
-* **[MDX](https://github.com/mdx-js/mdx/discussions)**
-  — topics relating to **[MDX][]**
-* **[micromark](https://github.com/micromark/micromark/discussions)**
-  — topics relating to the future of markdown in unified!
-* **[vfile](https://github.com/vfile/vfile/discussions)**
-  — topics relating to **[vfile][]**: virtual files
-* **[syntax-tree](https://github.com/syntax-tree/unist/discussions)**
-  — topics relating to **[syntax-tree][]** and **[unist][]**
+Be respectful and considerate when asking for things.
+You are not entitled to free customer service.
 
-### Asking quality questions
-
-Help us help you!
-
-Spending time framing a question and adding support links or resources makes it
-much easier for us to help.
-It’s easy to fall into the trap of asking something too specific when you’re
-close to a problem.
-Then,
-those trying to help you out have to spend a lot of time asking additional
-questions to understand what you are hoping to achieve.
-
-Spending the extra time up front can help save everyone time in the long run.
-
-* try to define what you need help with:
-  * is there something in particular you want to do?
-  * what problem are you encountering and what steps have you taken to try
-    and fix it?
-  * is there a concept you’re not understanding?
-* learn about the [rubber duck debugging method][rubberduck]
-* avoid falling for the [XY problem][xy]
-* search on GitHub to see if a similar question has been asked
-* if possible,
-  provide sample code,
-  a [CodeSandbox][],
-  or a video
-* the more time you put into asking your question,
-  the better we can help you
+Be friendly!
+Be excellent to each other.
 
 ## Contributions
 
-See [`contributing.md`][contributing] on how to contribute.
+See [`contributing.md`][file-contributing] on how to contribute.
+
+## Where to ask questions
+
+Each organization has a discussion forum:
+
+* [`mdx`](https://github.com/orgs/mdx-js/discussions)
+  — markdown for the component era
+* [`micromark`](https://github.com/orgs/micromark/discussions)
+  — underlying markdown parser
+* [`rehype`](https://github.com/orgs/rehypejs/discussions)
+  — HTML ecosystem
+* [`remark`](https://github.com/orgs/remarkjs/discussions)
+  — markdown ecosystem
+* [`retext`](https://github.com/orgs/retextjs/discussions)
+  — natural language ecosystem
+* [`syntax-tree`](https://github.com/orgs/syntax-tree/discussions)
+  — ASTs:
+  estree,
+  hast,
+  mdast,
+  nlcst,
+  unist,
+  xast
+* [`unified`](https://github.com/orgs/unifiedjs/discussions)
+  — core of the ecosystem
+* [`vfile`](https://github.com/orgs/vfile/discussions)
+  — virtual file format
+
+## How to ask questions
+
+* help us help you!
+  spend time framing questions
+* show the code,
+  show what you tried
+* search [discussions][github-search-discussions] and
+  [issues][github-search-issues] before opening something,
+  include links to what you find
+* make your question concrete,
+  zoom in;
+  explain what the actual problem is
+* when you ask something specific,
+  zoom out;
+  explain the context of your question
+* anticipate a follow up question of “Why?” and answer it already
+* learn about the [rubber duck debugging method][rubberduckdebugging],
+  it really helps
+* avoid falling for the [XY problem][stackexchange-xy-problem]
+* provide sample code:
+  a markdown code block,
+  [CodeSandbox][],
+  [StackBlitz][],
+  video
 
 ## License
 
 This document has the following license:
-[CC-BY-4.0][license] © [Titus Wormer][author]
-
-[license]: https://creativecommons.org/licenses/by/4.0/
-
-[author]: http://wooorm.com
-
-[coc]: https://github.com/syntax-tree/.github/blob/main/code-of-conduct.md
-
-[vfile]: https://github.com/vfile
-
-[syntax-tree]: https://github.com/syntax-tree
-
-[unist]: https://github.com/syntax-tree/unist
-
-[mdast]: https://github.com/syntax-tree/mdast
-
-[nlcst]: https://github.com/syntax-tree/nlcst
-
-[hast]: https://github.com/syntax-tree/hast
-
-[unified]: https://github.com/unifiedjs/unified
-
-[remark]: https://github.com/remarkjs/remark
-
-[retext]: https://github.com/retextjs/retext
-
-[rehype]: https://github.com/rehypejs/rehype
-
-[mdx]: https://github.com/mdx-js/mdx
-
-[rubberduck]: https://rubberduckdebugging.com
-
-[xy]: https://meta.stackexchange.com/questions/66377/what-is-the-xy-problem/66378#66378
+[CC-BY-4.0][creativecommons-by] © [Titus Wormer][wooorm]
 
 [codesandbox]: https://codesandbox.io
 
-[chat]: https://github.com/syntax-tree/unist/discussions
+[creativecommons-by]: https://creativecommons.org/licenses/by/4.0/
 
-[contributing]: contributing.md
+[file-code-of-conduct]: code-of-conduct.md
+
+[file-contributing]: contributing.md
+
+[github-search-discussions]: https://github.com/orgs/syntax-tree/discussions
+
+[github-search-issues]: https://github.com/search?q=user%3Asyntax-tree&type=issues
+
+[rubberduckdebugging]: https://rubberduckdebugging.com
+
+[stackblitz]: https://stackblitz.com
+
+[stackexchange-xy-problem]: https://meta.stackexchange.com/questions/66377/what-is-the-xy-problem/66378#66378
+
+[wooorm]: https://wooorm.com
